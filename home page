@@ -1,0 +1,98 @@
+<html>
+   
+<head>
+    {% load static %}
+    <title>kayakalp</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link href='https://fonts.googleapis.com/css?family=Grandstander' rel='stylesheet'>
+</head>
+
+
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <big style="color:rgb(231, 149, 61);">
+                <a href="{% url 'kk'%}" class="text" style="color:rgb(231, 149, 61);">
+                    <h1 class="logo">kayakalp <small><sub class="logo"> Wellness
+                            </sub></small></h1>
+                    <h4 class="logo">ujjain</h4>
+                </a>
+            </big>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="{% url 'services'%}">Services</a></li>
+                <li><a href="{% url 'product'%}">Product</a></li>
+                <li><a href="{% url 'appointment'%}">Appointment</a></li>
+            </ul>
+
+        </div>
+        <div class="container">
+            <div class="hexagon">
+                <div class="shape">
+                    <img src="{% static 'img/h1.jpg' %}">
+
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="shape">
+                    <img src="{% static 'img/h2.png' %}">
+
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="shape">
+                    <img src="{% static 'img/h3.jpg' %}">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+
+        <img src="{% static 'img/h4.jpg' %}" width="20%" height="auto">
+
+
+        <img src="{% static 'img/h5.jpg' %}" width="20%" height="auto">
+
+
+        <img src="{% static 'img/h6.jpg' %}" width="20%" height="auto">
+
+    </div>
+
+    </div>
+    </div>
+
+    <div class="para">
+        <big>
+            <p>
+                "Kayakalp Wellness brings to you an integrated and complete health package.<br>
+                 A fusion of, Naturopathy (the ancient Indian art of healing), Nature cure <br>
+                (drugless cure), Yoga (mind body balance),Panchkarma therapies (Body Detox)<br>
+                and multitude and relaxing therapies. The therapies are provided under the <br>
+                guidance of our experienced doctor and therapist in a hygienic, eco friendly <br>
+                and luxurious environment."<br><br>
+
+                The therapies are provided under the quilance of experienced doctors and therapist<br>
+                in a peaceful and ecofriendly environment.<br>
+            </p>
+        </big>
+    </div>
+
+    <div class="footer-content">
+
+        <h3>Address: Mig b -9/3, Mahananda Nagar, Ujjain, Madhya Pradesh 456001</h3><br>
+        <p>Copyright @ 2022 Kayakalp Wellness || Developed by<b> Ashwin Sharma</b> </p>
+    </div>
+
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
